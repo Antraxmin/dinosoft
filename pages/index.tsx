@@ -1,4 +1,5 @@
 import Figure from "@/components/figure";
+import Footer from "@/components/footer";
 import Header from "@/components/header";
 import Section from "@/components/section";
 import { Inter } from "next/font/google";
@@ -11,6 +12,7 @@ export default function Home() {
       <Header />
       <Figure />
       <Section />
+      <Footer />
     </>
   );
 }
