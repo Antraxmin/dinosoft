@@ -5,7 +5,7 @@ export default function Section() {
   return (
     <section>
       <div className="inner">
-        <h1>SERVICE</h1>
+        <h1>핵심 서비스</h1>
         <div className="wrap">
           <article>
             <div className="pic">
@@ -13,7 +13,7 @@ export default function Section() {
                 src="/web.png"
                 alt="1번째 이미지"
                 width={"280"}
-                height={"120"}
+                height={"250"}
               />
             </div>
             <Link href="#">
@@ -26,10 +26,15 @@ export default function Section() {
           </article>
           <article>
             <div className="pic">
-              <Image src="" alt="2번째 이미지" />
+              <Image
+                src="/mobile.png"
+                alt="2번째 이미지"
+                width={"280"}
+                height={"250"}
+              />
             </div>
             <Link href="#">
-              <h2>Lorem ipsum</h2>
+              <h2>모바일 앱 제작</h2>
               <p>Lorem ipsum dolor sit, amet consdje dofiwj</p>
             </Link>
           </article>
@@ -38,7 +43,7 @@ export default function Section() {
               <Image src="" alt="3번째 이미지" />
             </div>
             <Link href="#">
-              <h2>Lorem ipsum</h2>
+              <h2>콘텐츠 제작 솔루션</h2>
               <p>Lorem ipsum dolor sit, amet consdje dofiwj</p>
             </Link>
           </article>
@@ -47,7 +52,7 @@ export default function Section() {
               <Image className=".img" src="" alt="4번째 이미지" />
             </div>
             <Link href="#">
-              <h2>Lorem ipsum</h2>
+              <h2>프로젝트 컨설팅</h2>
               <p>Lorem ipsum dolor sit, amet consdje dofiwj</p>
             </Link>
           </article>
